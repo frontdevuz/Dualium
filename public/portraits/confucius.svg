@@ -1,0 +1,24 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="900" y2="1100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22334F"/>
+      <stop offset="1" stop-color="#3D7B89"/>
+    </linearGradient>
+    <radialGradient id="r" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(720 180) rotate(120) scale(360 280)">
+      <stop stop-color="#F4D79A" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#F4D79A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1100" rx="34" fill="url(#g)"/>
+  <rect width="900" height="1100" rx="34" fill="url(#r)"/>
+  <g opacity="0.8">
+    <circle cx="450" cy="410" r="130" fill="#F7FAFF" fill-opacity="0.28"/>
+    <path d="M260 860C260 720 345 620 450 620C555 620 640 720 640 860" fill="#F7FAFF" fill-opacity="0.24"/>
+    <circle cx="450" cy="430" r="112" stroke="#F7FAFF" stroke-opacity="0.36" stroke-width="3"/>
+  </g>
+  <g fill="#F8FAFF">
+    <text x="66" y="84" font-family="Manrope, Inter, sans-serif" font-size="30" font-weight="700" letter-spacing="1.5">Dualium Philosopher</text>
+    <text x="66" y="980" font-family="Cormorant Garamond, serif" font-size="66" font-weight="600">Confucius</text>
+    <text x="66" y="1026" font-family="Manrope, Inter, sans-serif" font-size="26" fill-opacity="0.86">551-479 BCE</text>
+  </g>
+</svg>

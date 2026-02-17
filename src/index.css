@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Manrope, 'Inter Variable', Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --dualium-mist: #edf2fb;
+  --dualium-deep: #0f1117;
+  --dualium-emerald: #4ab8a4;
+  --dualium-gold: #f4d79a;
+  --dualium-indigo: #233553;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  letter-spacing: 0.005em;
+  color: #101828;
+  background:
+    radial-gradient(1200px 700px at -10% -20%, rgba(244, 215, 154, 0.35), transparent 56%),
+    radial-gradient(1000px 600px at 110% -10%, rgba(74, 184, 164, 0.28), transparent 55%),
+    radial-gradient(900px 420px at 50% 120%, rgba(35, 53, 83, 0.11), transparent 65%),
+    var(--dualium-mist);
+}
+
+.dark body {
+  color: #f3f5f8;
+  background:
+    radial-gradient(1200px 700px at -10% -20%, rgba(244, 215, 154, 0.16), transparent 56%),
+    radial-gradient(1000px 600px at 110% -10%, rgba(74, 184, 164, 0.18), transparent 55%),
+    var(--dualium-deep);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: rgba(74, 184, 164, 0.25);
+  color: #0b1220;
+}
+
+.dark ::selection {
+  background: rgba(244, 215, 154, 0.3);
+  color: #f7fbff;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.effect-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.effect-card::after {
+  content: '';
+  pointer-events: none;
+  position: absolute;
+  left: -24%;
+  right: -24%;
+  bottom: -52%;
+  height: 130px;
+  opacity: 0;
+  transform: translateY(12px);
+  background: radial-gradient(ellipse at center, rgba(74, 184, 164, 0.2) 0%, rgba(74, 184, 164, 0) 70%);
+  transition:
+    opacity 260ms ease,
+    transform 260ms ease;
+}
+
+.effect-card:hover::after {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.content-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: 720px;
+}
+
+@media (max-width: 640px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1724"/>
+      <stop offset="0.48" stop-color="#1E3655"/>
+      <stop offset="1" stop-color="#275A63"/>
+    </linearGradient>
+    <radialGradient id="east" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(260 200) rotate(65) scale(520 440)">
+      <stop stop-color="#F4D79A" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#F4D79A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="west" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1340 200) rotate(120) scale(540 460)">
+      <stop stop-color="#4AB8A4" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#4AB8A4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#east)"/>
+  <rect width="1600" height="900" fill="url(#west)"/>
+  <g opacity="0.75">
+    <path d="M180 720C380 530 560 480 800 480C1040 480 1220 530 1420 720" stroke="#F8FAFF" stroke-opacity="0.42" stroke-width="6"/>
+    <path d="M180 760C380 575 560 540 800 540C1040 540 1220 575 1420 760" stroke="#F8FAFF" stroke-opacity="0.22" stroke-width="4"/>
+    <circle cx="800" cy="450" r="110" stroke="#F4D79A" stroke-opacity="0.7" stroke-width="3"/>
+    <circle cx="800" cy="450" r="165" stroke="#4AB8A4" stroke-opacity="0.5" stroke-width="2"/>
+  </g>
+  <g fill="#F8FAFF">
+    <text x="120" y="176" font-family="Manrope, Inter, sans-serif" font-size="46" font-weight="700" letter-spacing="2">Dualium</text>
+    <text x="120" y="236" font-family="Cormorant Garamond, serif" font-size="66" font-weight="600">East x West Bridge</text>
+    <text x="120" y="296" font-family="Manrope, Inter, sans-serif" font-size="28" fill-opacity="0.84">Comparative philosophy in one dynamic knowledge flow</text>
+  </g>
+</svg>

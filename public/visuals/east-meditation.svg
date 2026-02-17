@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1824"/>
+      <stop offset="0.5" stop-color="#173047"/>
+      <stop offset="1" stop-color="#2E8B72"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1210 180) rotate(120) scale(300 300)">
+      <stop stop-color="#F4D79A" stop-opacity="1"/>
+      <stop offset="1" stop-color="#F4D79A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#moon)"/>
+  <g opacity="0.65">
+    <ellipse cx="810" cy="620" rx="330" ry="120" fill="#0B111A" fill-opacity="0.38"/>
+    <path d="M620 620C660 520 720 460 800 430C880 460 940 520 980 620" stroke="#F4D79A" stroke-opacity="0.88" stroke-width="4"/>
+    <path d="M650 620C700 560 760 540 800 540C840 540 900 560 950 620" stroke="#F4D79A" stroke-opacity="0.45" stroke-width="3"/>
+    <circle cx="800" cy="405" r="54" stroke="#F8FAFF" stroke-opacity="0.75" stroke-width="3"/>
+  </g>
+  <g fill="#F8FAFF">
+    <text x="120" y="176" font-family="Manrope, Inter, sans-serif" font-size="46" font-weight="700" letter-spacing="2">Dualium</text>
+    <text x="120" y="236" font-family="Cormorant Garamond, serif" font-size="66" font-weight="600">Contemplative Path</text>
+    <text x="120" y="296" font-family="Manrope, Inter, sans-serif" font-size="28" fill-opacity="0.84">Buddhism, Jain ethics, and inner clarity practices</text>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101522"/>
+      <stop offset="0.45" stop-color="#263A58"/>
+      <stop offset="1" stop-color="#466E9D"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1280 160) rotate(128) scale(540 430)">
+      <stop stop-color="#F4D79A" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#F4D79A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#light)"/>
+  <g opacity="0.72">
+    <path d="M260 670H1340" stroke="#F8FAFF" stroke-opacity="0.22" stroke-width="5"/>
+    <path d="M340 670V390M470 670V390M600 670V390M730 670V390M860 670V390M990 670V390M1120 670V390M1250 670V390" stroke="#F8FAFF" stroke-opacity="0.26" stroke-width="6"/>
+    <path d="M300 390H1300" stroke="#F8FAFF" stroke-opacity="0.3" stroke-width="10"/>
+    <path d="M740 330L800 250L860 330" stroke="#F4D79A" stroke-opacity="0.92" stroke-width="6"/>
+  </g>
+  <g fill="#F8FAFF">
+    <text x="120" y="176" font-family="Manrope, Inter, sans-serif" font-size="46" font-weight="700" letter-spacing="2">Dualium</text>
+    <text x="120" y="236" font-family="Cormorant Garamond, serif" font-size="66" font-weight="600">Agora Dialogues</text>
+    <text x="120" y="296" font-family="Manrope, Inter, sans-serif" font-size="28" fill-opacity="0.84">Socrates, Plato, Aristotle and public reasoning</text>
+  </g>
+</svg>

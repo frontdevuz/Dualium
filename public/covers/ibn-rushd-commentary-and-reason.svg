@@ -1,0 +1,21 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="t d">
+  <title id="t">Ibn Rushd Commentary and Reason</title>
+  <desc id="d">Abstract analytic-philosophical cover.</desc>
+  <defs>
+    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#1b4d5a" />
+    </linearGradient>
+    <radialGradient id="r4" cx="0.18" cy="0.2" r="0.48">
+      <stop offset="0%" stop-color="#4ab8a4" stop-opacity="0.62" />
+      <stop offset="100%" stop-color="#4ab8a4" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#g4)"/>
+  <rect width="1200" height="700" fill="url(#r4)"/>
+  <rect x="740" y="150" width="290" height="360" rx="16" fill="none" stroke="#c9f5ec" stroke-width="2" opacity="0.5"/>
+  <rect x="705" y="185" width="290" height="360" rx="16" fill="none" stroke="#c9f5ec" stroke-width="2" opacity="0.35"/>
+  <path d="M120 520H620" stroke="#f4d79a" stroke-width="6" stroke-linecap="round"/>
+  <text x="90" y="465" fill="#f8fbff" font-family="Inter, system-ui" font-size="58" font-weight="700">Ibn Rushd</text>
+  <text x="90" y="530" fill="#dbe7f4" font-family="Inter, system-ui" font-size="34">Commentary and Reason</text>
+</svg>

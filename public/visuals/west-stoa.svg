@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E1320"/>
+      <stop offset="0.52" stop-color="#1E2F4B"/>
+      <stop offset="1" stop-color="#1B5F63"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1210 120) rotate(130) scale(520 400)">
+      <stop stop-color="#C6A972" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#C6A972" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+  <g opacity="0.72">
+    <circle cx="820" cy="460" r="220" stroke="#F4D79A" stroke-opacity="0.55" stroke-width="3"/>
+    <circle cx="820" cy="460" r="295" stroke="#F4D79A" stroke-opacity="0.22" stroke-width="2"/>
+    <path d="M500 730C560 630 640 560 820 560C1000 560 1080 630 1140 730" stroke="#F8FAFF" stroke-opacity="0.28" stroke-width="4"/>
+    <path d="M540 760C610 680 680 640 820 640C960 640 1030 680 1100 760" stroke="#F8FAFF" stroke-opacity="0.18" stroke-width="3"/>
+  </g>
+  <g fill="#F8FAFF">
+    <text x="120" y="176" font-family="Manrope, Inter, sans-serif" font-size="46" font-weight="700" letter-spacing="2">Dualium</text>
+    <text x="120" y="236" font-family="Cormorant Garamond, serif" font-size="66" font-weight="600">Stoic Discipline</text>
+    <text x="120" y="296" font-family="Manrope, Inter, sans-serif" font-size="28" fill-opacity="0.84">Logos, resilience, and practical virtue training</text>
+  </g>
+</svg>

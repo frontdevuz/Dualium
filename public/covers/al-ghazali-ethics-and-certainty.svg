@@ -1,0 +1,20 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="t d">
+  <title id="t">Al-Ghazali Ethics and Certainty</title>
+  <desc id="d">Abstract ethical reflection cover.</desc>
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#171717" />
+      <stop offset="100%" stop-color="#26364d" />
+    </linearGradient>
+    <radialGradient id="r2" cx="0.22" cy="0.18" r="0.52">
+      <stop offset="0%" stop-color="#4ab8a4" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#4ab8a4" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#g2)"/>
+  <rect width="1200" height="700" fill="url(#r2)"/>
+  <path d="M180 530C300 420 450 380 620 360C760 345 880 300 1010 180" stroke="#f4d79a" stroke-width="5" fill="none" opacity="0.85"/>
+  <path d="M180 580C320 490 470 455 610 430C770 400 900 350 1040 230" stroke="#7de0cf" stroke-width="3" fill="none" opacity="0.75"/>
+  <text x="90" y="500" fill="#f8fbff" font-family="Inter, system-ui" font-size="58" font-weight="700">Al-Ghazali</text>
+  <text x="90" y="560" fill="#dbe7f4" font-family="Inter, system-ui" font-size="34">Ethics and Certainty</text>
+</svg>
