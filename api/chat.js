@@ -4,7 +4,7 @@ const MAX_MESSAGE_CHARS = 12000;
 const MAX_TOTAL_MESSAGE_CHARS = 80000;
 const MAX_BODY_CHARS = 200000;
 const REQUEST_TIMEOUT_MS = 20000;
-const DEFAULT_MODEL = 'llama-3.1-70b-versatile';
+const DEFAULT_MODEL = 'llama-3.3-70b-versatile';
 
 const ipAccessMap = new Map();
 
@@ -12,7 +12,7 @@ function setSecurityHeaders(res) {
   res.setHeader('Cache-Control', 'no-store');
   res.setHeader('X-Content-Type-Options', 'nosniff');
 }
-
+//testing
 function getClientIp(req) {
   const forwarded = req.headers['x-forwarded-for'];
   if (typeof forwarded === 'string' && forwarded.length > 0) {
