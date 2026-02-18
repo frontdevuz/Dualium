@@ -148,7 +148,7 @@ export function HomePage() {
           <div className="mt-8 inline-flex items-center gap-2 rounded-full border border-zinc-300/70 bg-zinc-50/80 px-4 py-2 text-xs text-zinc-600 dark:border-zinc-700 dark:bg-zinc-900/70 dark:text-zinc-300">
             <span className="h-2 w-2 rounded-full bg-aurora" />
             <a href="https://izzatillo.uz" target="_blank" rel="noreferrer" className="font-semibold hover:text-aurora hover:underline">
-              Designed by Izzatillo Davlatov · izzatillo.uz
+              Created by Izzatillo Davlatov · izzatillo.uz
             </a>
           </div>
         </motion.div>
